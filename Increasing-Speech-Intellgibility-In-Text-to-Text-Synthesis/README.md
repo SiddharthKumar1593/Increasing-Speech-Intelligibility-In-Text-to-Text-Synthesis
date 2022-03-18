@@ -1,11 +1,4 @@
-# Enhancing Speech Intelligibility in Text-To-Speech Synthesis using Speaking Style Conversion
-
-Dipjyoti Paul<sup>a</sup>,  Muhammed PV Shifas<sup>a</sup>, Yannis Pantazis<sup>b</sup> and Yannis Stylianou<sup>a</sup>
-
-<sup>a</sup>Computer Science Department, University of Crete
-
-<sup>b</sup>Inst. of Applied and Computational Mathematics, Foundation for Research and Technology - Hellas
-
+# Increasing Speech Intelligbility in Text-ti-Text Syntesis
 
 ### Abstract: 
 The increased adoption of digital assistants makes text-to-speech (TTS) synthesis systems an indispensable feature of modern mobile devices. It is hence desirable to build a system capable of generating highly intelligible speech in the presence of noise. Past studies have investigated style conversion in TTS synthesis, yet degraded synthesized quality often leads to worse intelligibility. To overcome such limitations, we proposed a novel transfer learning approach using Tacotron and WaveRNN based TTS synthesis. The proposed speech system exploits two modification strategies: (a) Lombard speaking style data and (b) Spectral Shaping and Dynamic Range Compression (SSDRC) which has been shown to provide high intelligibility gains by redistributing the signal energy on the time-frequency domain. We refer to this extension as Lombard-SSDRC TTS system. Intelligibility enhancement as quantified by the Intelligibility in Bits (SIIB-Gauss) measure shows that the proposed Lombard-SSDRC TTS system shows significant relative improvement between 110% and 130% in speech-shaped noise (SSN), and 47% to 140% in competing-speaker noise (CSN) against the state-of-the-art TTS approach. Additional subjective evaluation shows that Lombard-SSDRC TTS successfully increases the speech intelligibility with relative improvement of 455% for SSN and 104% for CSN in median keyword correction rate compared to the baseline TTS method.
